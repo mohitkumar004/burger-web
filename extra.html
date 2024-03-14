@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Montserrat:wght@100;400;700&display=swap');
+
+        :root {
+            --dark-bg: #f64b3c;
+            --light-bg: #f6eedf;
+            --dark-text: #f64b3c;
+            --heading-text: 'Archivo', sans-serif;
+        }
+
+        /* font-family: 'Archivo', sans-serif;
+           font-family: 'Montserrat', sans-serif;
+        */
+        .dark-bg {
+            background: var(--dark-bg);
+        }
+
+        .light-bg {
+            background: var(--light-bg);
+        }
+
+        .chef {
+            background: url(images/chef-base.png) no-repeat center, var(--light-bg);
+        }
+
+        .dark-text {
+            color: var(--dark-text);
+            font-family: var(--heading-text);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid chef pt-5 pb-5">
+        <div class="container text-center dark-text pt-5 pb-5">
+            <div class="row">
+                <div class="col">
+                    <p class="display-1 fw-bold">Our Chef</p>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vi-<br>vamus lacinia odio
+                        vitae
+                        vestibulum
+                        vestibulum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="images/Aiden-Hunter.png" alt="Aiden Hunter" class="rounded-circle">
+                    <h4 class="text-uppercase mt-3">Aiden Hunter</h4>
+                    <h5>Founder</h5>
+                </div>
+                <div class="col">
+                    <img src="images/Ethel-Ramsey.png" alt="Ethel Ramsey" class="rounded-circle">
+                    <h4 class="text-uppercase mt-3">Ethel Ramsey</h4>
+                    <h5>Co-Founder</h5>
+                </div>
+                <div class="col">
+                    <img src="images/Fannie-Stewart.png" alt="Fannie Stewart" class="rounded-circle">
+                    <h4 class="text-uppercase mt-3">Fannie Stewart</h4>
+                    <h5>Co-Founder</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-5 dark-bg">
+        <div class="container p-5">
+            <div class="row align-items-center text-white">
+                <div class="col-12 col-md-6">
+                    <img src="images/best-burger.png" alt="" class="w-100 d-block me-auto">
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <p class="display-1 fw-bold">Best Burger</p>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                        vestibulum
+                        vestibulum.</p>
+                    <button class="btn btn-primary btn-lg rounded-pill ps-5 pe-5">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col flex-column flex-md-row">
+                <div class="ratio ratio-1x1 light-bg rounded-circle text-center">
+                    <div class=" align-self-center">1x1</div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="ratio ratio-1x1 light-bg rounded-circle text-center">
+                    <div class=" align-self-center">1x1</div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="ratio ratio-1x1 light-bg rounded-circle text-center">
+                    <div class=" align-self-center">1x1</div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
